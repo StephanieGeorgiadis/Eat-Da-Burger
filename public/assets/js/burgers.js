@@ -24,7 +24,7 @@ $(function() {
 
         var name = $("[name=burger-name]").val().trim();
 
-        if(name !== "") {
+        if (name !== "") {
             var newBurger = {
                 name: name
             };
@@ -38,8 +38,7 @@ $(function() {
                 // Reload the page to get the updated list
                 location.reload();
             });
-        }
-        else {
+        } else {
             $("[name=burger-name]").val("");
         }
     });
